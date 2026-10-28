@@ -29,7 +29,7 @@ public class FrogSimulation {
             else if(distance<0){
                 break;
             }
-           }   
+        }
         return result;} 
 
     public double runSimulations(int num){
@@ -41,7 +41,7 @@ public class FrogSimulation {
         }
         double result = (double)successes/num;
         return result;
-    }  
+    }
 }
     
         
