@@ -1,7 +1,6 @@
 public class FrogRunner{
     public static void main(String[] args) {
-        FrogSimulation sim = new sim(24, 5);
-        
-
+        FrogSimulation sim = new FrogSimulation(20, 10);
+        sim.runSimulations(1000);
     }
 }
